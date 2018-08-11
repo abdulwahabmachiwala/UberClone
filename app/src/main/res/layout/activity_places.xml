@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.addressapp.wahab.uberapp.PlacesActivity">
+
+    <LinearLayout
+        android:id="@+id/linearmajor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearminor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:background="@color/button_selected_car"
+                android:contentDescription="back"
+                android:src="@drawable/back"/>
+
+            <ImageView
+                android:id="@+id/image_of_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/user_name"
+                android:padding="8dp"
+                android:src="@drawable/usericon" />
+
+            <Spinner
+                android:id="@+id/user"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearminor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/tt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:hint="@string/dr"
+                android:inputType="text"
+                android:paddingEnd="15dp"
+                android:paddingStart="7dp"
+                android:paddingTop="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearminor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/tt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/shape2"
+                android:gravity="start"
+                android:hint="@string/where_to"
+                android:inputType="text"
+                android:paddingEnd="199dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/button_selected_car"
+                android:padding="10dp"
+                android:src="@drawable/pl_us" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearmajor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearmajor1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@drawable/shape4"
+            android:drawablePadding="30dp"
+            android:drawableStart="@drawable/home"
+            android:padding="10dp"
+            android:text="@string/add_home" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@drawable/shape4"
+            android:drawablePadding="30dp"
+            android:drawableStart="@drawable/bag"
+            android:padding="10dp"
+            android:text="@string/add_work" />
+
+        <TextView
+            android:id="@+id/saved_places"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@drawable/shape4"
+            android:drawablePadding="30dp"
+            android:drawableStart="@drawable/star"
+            android:padding="10dp"
+            android:text="@string/saved_places" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/linearmajor2"
+        android:layout_marginTop="10dp"
+        android:background="#fff" />
+</RelativeLayout>

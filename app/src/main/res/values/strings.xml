@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Uber app</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="home_page">Where to?</string>
+    <string name="for_maaz">For maaz</string>
+    <string name="dr">Dr.Qureshi Medical Check-Up C...</string>
+    <string name="where_to">Where to?</string>
+    <string name="add_home">Add Home</string>
+    <string name="add_work">Add Work</string>
+    <string name="saved_places">Saved Places</string>
+    <string name="international_airport">Chhatrapati Shivaji International Airport</string>
+    <string name="pheonix">High Street Pheonix</string>
+    <string name="car_type"><b>Economy</b></string>
+    <string name="ride_type">Affordable, compact rides</string>
+    <string name="uber_go">UberGo</string>
+    <string name="premier">Premier</string>
+    <string name="rupees_1">Rs. 357.69</string>
+    <string name="rupees_2">Rs. 407.86</string>
+    <string-array name="for_user">
+        <item> For Maaz </item>
+        <item> For Wahab </item>
+        <item> For Aves </item>
+        <item> For Umair</item>
+    </string-array>
+    <string-array name="titles_of_list">
+        <item>Chhatrapti Shivaji Terminus</item>
+        <item>Mumbai Central</item>
+        <item>Chhatrapati Shivaji International Airport</item>
+        <item>High Street Pheonix</item>
+    </string-array>
+    <string-array name="descriptions_of_list">
+        <item>Area, Fort, Mumbai, Maharashtra</item>
+        <item>Mumbai Central, Mumbai, Maharashtra</item>
+        <item>Mumbai, Maharashtra</item>
+        <item>Lower Parel, Mumbai, Maharashtra</item>
+    </string-array>
+
+    <string name="fare">Fare.......................................................Rs 391.17</string>
+    <string name="capa">Capacity................................................1-4</string>
+    <string name="esti">Estimated Arrival..................................8:00pm</string>
+    <string name="perm">Per Minute Wait Time..........................Rs 3.15</string>
+    <string name="fare2">The fair will be the price presented upon booking, or, if the journey changes, the fare will be based on the rates provided. Tap fare for details</string>
+    <string name="button">DONE</string>
+
+    <string name="plus">+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">user name</string>
+    <string name="location_pin">location pin</string>
+    <string name="title_activity_routemap">Map</string>
+    <string name="title_activity_confirm_ride">Map</string>
+</resources>
